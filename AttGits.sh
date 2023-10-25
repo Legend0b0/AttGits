@@ -10,6 +10,6 @@ do
   echo -e "\e[0;32m${array[$i]}\e[0m"
   cd ${array[$i]}
   git status -s
-  sleep 1
+  sleep 0.2
 done
 cd
