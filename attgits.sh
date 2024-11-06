@@ -12,6 +12,7 @@ do
   if [ $n -le 20 ]; then
     progress=$n
     draw_progress_bar $progress
+    sleep 0.15
   fi
 done
 
